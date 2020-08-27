@@ -1,3 +1,4 @@
+#creando primer clase
 class Coche():
     largoChasis=250
     anchoChasis=120
