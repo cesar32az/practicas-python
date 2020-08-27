@@ -13,7 +13,7 @@ while numero<0:
         break
     numero=int(input("Introduce tu numero: "))
     if numero<0:
-        intentos = intentos+1
+        intentos +=1
 if intentos<2:
     solucion=m.sqrt(numero)
     print("la raiz cuadrada de: " + str(numero) + " es " + str(solucion))
